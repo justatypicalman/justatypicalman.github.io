@@ -1,0 +1,1 @@
+# justatypicalman.github.io
