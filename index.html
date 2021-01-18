@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Eric's Website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="shortcut icon" href="favicon.ico">
         <script src="https://kit.fontawesome.com/b19d346a43.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,19 +15,25 @@
         <nav>
             
             <div class="logo">
-                <a href="index.html"> <img src="homelogo.png" height="130px" weight="130px"></a>
+                <a href="index.html"> <img src="picture/homelogo.png" height="100px" weight="100px"></a>
             </div>
 
         
         <ul class="nav-links">
             <li>
-                <a href="index.html" class="scrolling" id="no1">Home</a>
+                <a href="#!" class="scrolling" id="no1">Home</a>
             </li>
             <li>
                 <a href="aboutme.html" >About Me</a>
             </li>
             <li>
-                <a href="projects.html" class="lupet">Projects</a>
+                <div class = "dropdown">
+                 <a href = "#!" class = "dropbtn">Projects</button>
+                 <div class="dropdown-content">
+                     <a href="web.html">Web Development</a>
+                     <a href="game.html">Game Development</a>
+                 </div>
+                </div>
             </li>
         </ul>
         <div class="burger">
@@ -35,7 +44,7 @@
         </nav>
         <script src="app.js"></script>
         <div id="mypicture">
-            <img src="picture.png" width="369px" height="515px">
+            <img src="picture/picture.png" width="300px" height="400px">
         </div>
         <div id="myname">
             <h1>Hi, my name is</h1>

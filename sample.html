@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/b19d346a43.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+    
+#projects{
+  background-color: rgb(63, 63, 63);
+  font-family: 'Poppins', sans-serif;
+  width: 1000px;
+  border: 15px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+#achievements{
+  background-color: rgb(63, 63, 63);
+  font-family: 'Poppins', sans-serif;
+  width: 500px;
+  border: 15px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(51, 51, 51);
+    box-sizing: border-box;
+}
+#mypicture{
+  background-color: rgb(63, 63, 63);
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+  border: 15px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  margin: 20px;
+  color: white;
+  margin-bottom: 50px;
+  float: left;
+  padding: 20px;
+}
+#myname{
+    
+
+  }
+
+  .slider{
+    width:600px;
+    height:500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .slides{
+    width: 500%;
+    height: 500px;
+    display:flex;
+  }
+  .slides input{
+    display: none;
+  }
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+
+  .slide img{
+    width: 600px;
+    height: 500px;
+  }
+
+  .navigation-manual{
+    position: absolute;
+    width: 600px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  .manual-btn{
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+
+  .manual-btn:hover{
+    background: #ffffff;
+  }
+  #radio1:checked ~ .first{
+    margin-left:0;
+  }
+  #radio2:checked ~ .first{
+    margin-left:-20%;
+  }
+  #radio3:checked ~ .first{
+    margin-left:-40%;
+  }
+  #radio4:checked ~ .first{
+    margin-left:-60%;
+  }
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  margin-top: 460px
+}
+.navigation-auto div{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+  margin-right:40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #ffffff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #ffffff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #ffffff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #ffffff;
+}
+
+</style>
+</head>
+<body>
+
+  <div id = "myname">
+    <h1>Web Development</h1>
+  <div class = "slider">
+    <div class = "slides">
+      <input type = "radio" name = "radio-btn" id = "radio1">
+      <input type = "radio" name = "radio-btn" id = "radio2">
+      <input type = "radio" name = "radio-btn" id = "radio3">
+      <input type = "radio" name = "radio-btn" id = "radio4">
+
+
+      <div class = "slide first">
+        <img src = "web1.png">
+      </div>
+      <div class = "slide">
+       <img src = "web2.png">
+     </div>
+     <div class = "slide">
+       <img src = "web3.png">
+     </div>
+     <div class = "slide">
+       <img src = "web4.png">
+     </div>
+
+     <div class = "navigation-auto">
+       <div class="auto-btn1"></div>
+       <div class="auto-btn2"></div>
+       <div class="auto-btn3"></div>
+       <div class="auto-btn4"></div>
+     </div>
+     
+
+    </div>
+
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+</div>
+
+<div id = "myname">
+  <h1>Game Development</h1>
+<div class = "slider">
+  <div class = "slides">
+    <input type = "radio" name = "radio-btn" id = "radio5">
+    <input type = "radio" name = "radio-btn" id = "radio6">
+    <input type = "radio" name = "radio-btn" id = "radio7">
+    <input type = "radio" name = "radio-btn" id = "radio8">
+
+
+    <div class = "slide first">
+      <img src = "game1.png">
+    </div>
+    <div class = "slide">
+     <img src = "game2.png">
+   </div>
+   <div class = "slide">
+     <img src = "game3.png">
+   </div>
+   <div class = "slide">
+     <img src = "game4.png">
+   </div>
+
+   <div class = "navigation-auto">
+     <div class="auto-btn5"></div>
+     <div class="auto-btn6"></div>
+     <div class="auto-btn7"></div>
+     <div class="auto-btn8"></div>
+   </div>
+   
+
+  </div>
+
+  <div class="navigation-manual">
+    <label for="radio5" class="manual-btn"></label>
+    <label for="radio6" class="manual-btn"></label>
+    <label for="radio7" class="manual-btn"></label>
+    <label for="radio8" class="manual-btn"></label>
+  </div>
+</div>
+</div>
+
+           
+
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio'+counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;   
+  }
+}, 5000);
+
+</script>
+
+<!--
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div id="mypicture">
+    <img src="picture.png" width="300px">
+</div>
+<div id="myname">
+    <h1>Hi, my name is</h1>
+    <h1 id="eric">Eric Dango</h1>
+</div>
+
+<div id="projects">
+    <h1> Game Development<br><br></h1>
+    <img src="projectgame.png" width="1000px" height="700px">
+</div>
+b
+<div id="projects">
+    <h1> Web Development<br><br></h1>
+    <img src="projecthtml.png" width="1000px" height="700px">
+</div>
+<div id="achievements">
+    <h1> Achievements<br></h1>
+    <img src="achievements.png" width="400px">
+    <br>
+</div>
+-->
+</body>
+</html>
+
