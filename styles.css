@@ -20,12 +20,12 @@ h1, h2{
 }
 #projectshr{
     margin-top:30px;
-    border: 5px solid rgb(0, 0, 0);">
+    border: 5px solid rgb(0, 0, 0);
 }
 #projectshrbot{
-    border: 5px solid rgb(0, 0, 0);">
+    border: 5px solid rgb(0, 0, 0);
 }
-#mypicture{
+#ericpicture{
     background-color: rgb(63, 63, 63);
     font-family: 'Poppins', sans-serif;
     width: 350px;
@@ -35,9 +35,15 @@ h1, h2{
     color: white;
     margin-left: 100px;
     margin-top: 50px;
-    padding: 10px;
     float: left;
   }
+ /*
+ #ericpicture{
+  width: 300px;
+  height: 400px;
+}
+*/
+
   #myname{
     text-align: center;
     background-color: rgb(63, 63, 63);
@@ -177,17 +183,171 @@ h1, h2{
     margin: 5px;
     transition: all 0.3s ease;
 }
+@media screen and (max-width: 1400px){
+  #myname{
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    width: 650px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-right: 70px;
+    color: white;
+    font-size: 50px;
+  }
+  #eric{
+    font-size: 90px;
+  }
+  #intro{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1300px){
+  #myname{
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    width: 600px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-right: 70px;
+    color: white;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1130px){
+  .nav-links {
+      width:30%;
+  }
+  #ericpicture{
+    width: 250px;
+    height: 320px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+  }
+  #myname{
+    width: 600px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 30px;
+    padding:0px;
+  }
+
+  #intro{
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 1024px){
     .nav-links {
-        width:60%;
+        width:30%;
+    }
+    #ericpicture{
+      width: 250px;
+      height: 320px;
+      color: white;
+      margin-left: 50px;
+      margin-top: 50px;
+      float: left;
+    }
+    #myname{
+      width: 550px;
+      border: 15px solid rgb(0, 0, 0);
+      border-radius: 25px;
+      margin-top: 50px;
+      margin-right: 50px;
+      color: white;
+      font-size: 30px;
+      padding:0px;
+    }
+    #intro{
+      font-size: 25px;
     }
 }
+/*
+@media screen and (max-width: 1000px){
+  #ericpicture{
+    width: 250px;
+    height: 320px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+  }
+  #myname{
+    width: 400px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 30px;
+    padding:0px;
+  }
+  #eric{
+    font-size: 35px;
+  }
+  #intro{
+    font-size: 25px;
+  }
+}
+*/
+@media screen and (max-width: 900px){
+  #myname{
+    width: 400px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 30px;
+    padding:0px;
+  }
+  #eric{
+    font-size: 40px;
+  }
+  #intro{
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
     }
-    #mypicture{
-        margin:auto;
+    #myname{
+      padding: 0px;
+      width: 340px;
+      border: 15px solid rgb(0, 0, 0);
+      border-radius: 25px;
+      margin-top: 50px;
+      margin-right: 50px;
+      color: white;
+      font-size: 30px;
+    }
+    #eric{
+      font-size: 30px;
+    }
+    #intro{
+      font-size: 20px;
+    }
+    #ericpicture{
+      width: 200px;
+      height: 250px;
+      color: white;
+      margin-left: 10px;
+      margin-top: 50px;
+      float: left;
     }
     .logo{
         margin-left: 50%;
@@ -214,10 +374,38 @@ h1, h2{
         display: block;
     }
 }
+@media screen and (max-width: 630px){
+  body{
+      overflow-x: hidden;
+  }
+  #myname{
+    padding: 0px;
+    width: 240px;
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 10px;
+    color: white;
+    font-size: 30px;
+  }
+  #eric{
+    font-size: 30px;
+  }
+  #intro{
+    font-size: 20px;
+  }
+  #ericpicture{
+    width: 200px;
+    height: 250px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+    float: left;
+  }
 .nav-active{
     transform: translateX(0%);
 }
-
+}
 @keyframes navLinkFade{
     from{
         opacity: 0;
