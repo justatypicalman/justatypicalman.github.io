@@ -20,9 +20,11 @@ h1, h2{
 }
 #projectshr{
   margin-top:30px;
+  padding: 0px;
   border: 5px solid rgb(0, 0, 0);
 }
 #projectshrbot{
+  padding: 0px;
   border: 5px solid rgb(0, 0, 0);
 }
 #ericpicture{
@@ -34,7 +36,7 @@ h1, h2{
   border-radius: 25px;
   color: white;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 80px;
   float: left;
 }
 /*
@@ -53,7 +55,7 @@ height: 400px;
   width: 700px;
   border: 15px solid rgb(0, 0, 0);
   border-radius: 25px;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-right: 250px;
   color: white;
   font-size: 40px;
@@ -194,10 +196,13 @@ nav{
     width: 650px;
     border: 15px solid rgb(0, 0, 0);
     border-radius: 25px;
-    margin-top: 70px;
-    margin-right: 70px;
+    margin-top: 110px;
+    margin-right: 150px;
     color: white;
     font-size: 50px;
+  }
+  #ericpicture{
+    margin-left: 80px;
   }
   #eric{
     font-size: 90px;
@@ -217,14 +222,32 @@ nav{
     width: 600px;
     border: 15px solid rgb(0, 0, 0);
     border-radius: 25px;
-    margin-top: 60px;
-    margin-right: 70px;
+    margin-top: 110px;
+    margin-right: 100px;
     color: white;
     font-size: 50px;
+  }
+  #ericpicture{
+    width: 330px;
+    height: 420px;
+    margin-left: 60px;
+    margin-top: 90px;
   }
   
 }
 @media screen and (max-width: 1130px){
+  #projectshr{
+    width: 1130px;
+    margin-top:30px;
+    padding: 0px;
+    border: 5px solid rgb(0, 0, 0);
+  }
+  #projectshrbot{
+    width: 1130px;
+    padding: 0px;
+    border: 5px solid rgb(0, 0, 0);
+  }
+
   .nav-links {
       width:30%;
   }
@@ -254,18 +277,18 @@ nav{
 
   }
   #ericpicture{
-    width: 250px;
-    height: 320px;
+    width: 290px;
+    height: 370px;
     color: white;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 110px;
     float: left;
   }
   #myname{
     width: 600px;
     border: 15px solid rgb(0, 0, 0);
     border-radius: 25px;
-    margin-top: 50px;
+    margin-top: 140px;
     margin-right: 50px;
     color: white;
     font-size: 30px;
@@ -308,17 +331,17 @@ nav{
     }
     #ericpicture{
       width: 250px;
-      height: 320px;
+      height: 330px;
       color: white;
-      margin-left: 50px;
-      margin-top: 50px;
+      margin-left: 40px;
+      margin-top: 145px;
       float: left;
     }
     #myname{
-      width: 550px;
+      width: 520px;
       border: 15px solid rgb(0, 0, 0);
       border-radius: 25px;
-      margin-top: 50px;
+      margin-top: 160px;
       margin-right: 50px;
       color: white;
       font-size: 30px;
@@ -331,40 +354,19 @@ nav{
       font-size: 25px;
     }
 }
-/*
-@media screen and (max-width: 1000px){
-  #ericpicture{
-    width: 250px;
-    height: 320px;
-    color: white;
-    margin-left: 50px;
-    margin-top: 50px;
-    float: left;
-  }
-  #myname{
-    width: 400px;
-    border: 15px solid rgb(0, 0, 0);
-    border-radius: 25px;
-    margin-top: 50px;
-    margin-right: 50px;
-    color: white;
-    font-size: 30px;
-    padding:0px;
-  }
-  #eric{
-    font-size: 35px;
-  }
-  #intro{
-    font-size: 25px;
-  }
-}
-*/
+
 @media screen and (max-width: 900px){
+  #ericpicture{
+    width: 230px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 155px;
+  }
   #myname{
-    width: 405px;
+    width: 420px;
     border: 15px solid rgb(0, 0, 0);
     border-radius: 25px;
-    margin-top: 50px;
+    margin-top: 180px;
     margin-right: 50px;
     color: white;
     font-size: 30px;
@@ -408,6 +410,17 @@ nav{
     body{
         overflow-x: hidden;
     }
+    #projectshr{
+      width: 768px;
+      margin-top:30px;
+      padding: 0px;
+      border: 5px solid rgb(0, 0, 0);
+    }
+    #projectshrbot{
+      width: 768px;
+      padding: 0px;
+      border: 5px solid rgb(0, 0, 0);
+    }
     .fa-facebook-square{
       font-size: 50px;
       margin: 7px;
@@ -438,7 +451,7 @@ nav{
       width: 380px;
       border: 15px solid rgb(0, 0, 0);
       border-radius: 25px;
-      margin-top: 50px;
+      margin-top: 200px;
       margin-right:  10px;
       color: white;
       font-size: 30px;
@@ -453,8 +466,8 @@ nav{
       width: 200px;
       height: 250px;
       color: white;
-      margin-left: 10px;
-      margin-top: 50px;
+      margin-left: 20px;
+      margin-top: 180px;
       float: left;
     }
     
@@ -709,6 +722,18 @@ nav{
   
 
 @media screen and (max-width: 630px){
+  #projectshr{
+    width: 630px;
+    margin: auto;
+    margin-top:30px;
+    padding: 0px;
+    border: 5px solid rgb(0, 0, 0);
+  }
+  #projectshrbot{
+    width: 630px;
+    padding: 0px;
+    border: 5px solid rgb(0, 0, 0);
+  }
   body{
       overflow-x: hidden;
   }
@@ -742,7 +767,7 @@ nav{
     width: 250px;
     border: 15px solid rgb(0, 0, 0);
     border-radius: 25px;
-    margin-top: 50px;
+    margin-top: 210px;
     margin-right: 10px;
     color: white;
     font-size: 30px;
@@ -757,8 +782,8 @@ nav{
     width: 200px;
     height: 250px;
     color: white;
-    margin-left: 10px;
-    margin-top: 50px;
+    margin-left: 13px;
+    margin-top: 180px;
     float: left;
   }
   .nav-active{
