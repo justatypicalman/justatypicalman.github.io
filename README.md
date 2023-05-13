@@ -1,1 +1,1 @@
-# justatypicalman.github.io
+Eric Dango's Personal Portfolio *wink*
